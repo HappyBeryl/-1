@@ -15,6 +15,8 @@ public class Goods {
     private Integer price;//商品价格  12.34  -》 1234
     private Integer discount;
 
+    private Integer buyGoodsNum; //买了多少个货物
+
     //单位为元
     public double getPrice() {
         return price * 1.0 / 100;

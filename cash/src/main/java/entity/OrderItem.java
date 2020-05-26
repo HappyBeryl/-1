@@ -16,4 +16,15 @@ public class OrderItem {
     private String goodsUnit;
     private Integer goodsPrice;
     private Integer goodsDiscount;
+
+    //单位为元
+    public double getGoodsPrice() {
+        return goodsPrice * 1.0 / 100;
+    }
+
+    //单位为分
+    public int getGoodsPriceInt() {
+        return goodsPrice;
+    }
+
 }
