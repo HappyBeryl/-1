@@ -7,6 +7,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.*;
 
 public class UserDao {
 
@@ -164,8 +165,140 @@ public class UserDao {
         }
         //更新失败
         return 0;
-
     }
+
+    //6.分页查询所有用户信息（查询当前条件下所有用户的信息）
+    //条件随机组合，也可以不给
+    /*
+     start：开始查询的起始位置
+     rows：共查询的记录
+     map：包含：currentPage、rows、name、address、email
+     {
+        name:"bq"
+        address:"陕西"
+        email:"123..."
+     }
+     */
+    public  List<User> findByPage(int start, int rows, Map<String, String[]> map) {
+
+        List<User> userList = new ArrayList<>();
+
+        String sql = "select * from usermessage where  1=1";
+
+       // String sql = "select * from usermessage where 1=1
+        // and name like ? and email like ? limit ?,?"
+
+        StringBuffer sb = new StringBuffer(sql);
+
+        List<Object> list = new ArrayList<>();
+
+        Set<String> keySet = map.keySet();
+        for (String key: keySet) {
+            String value = map.get(key)[0];
+            if (value != null && !"".equals(value)) {
+                sb.append(" and ").append(key).append(" like ? ");
+                list.add("%"+value+"%");
+            }
+        }
+        sb.append(" limit ?,? ");
+        list.add(start);
+        list.add(rows);
+
+        System.out.println("sql" + sb);
+        System.out.println("list" + list);
+        Connection connection = null;
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+
+        try {
+            connection = DBUtil.getConnection();
+            ps = connection.prepareStatement(sb.toString());
+            //给sql语句赋值
+            setValues(ps,list.toArray());
+            rs = ps.executeQuery();
+            //结果集可能有多条数据
+            while (rs.next()) {
+                //用户的组装
+                User user = new User();
+                user.setId(rs.getInt("id"));
+                user.setUsername(rs.getString("username"));
+                user.setPassword(rs.getString("password"));
+                user.setName(rs.getString("name"));
+                user.setAddress(rs.getString("address"));
+                user.setAge(rs.getInt("age"));
+                user.setGender(rs.getString("gender"));
+                user.setQq(rs.getString("qq"));
+                user.setEmail(rs.getString("email"));
+                userList.add(user);
+            }
+
+        }catch (SQLException e) {
+            e.printStackTrace();
+        }finally {
+            DBUtil.close(connection,ps,rs);
+        }
+        return  userList;
+    }
+
+    private static void setValues(PreparedStatement ps, Object... array) throws SQLException {
+        for (int i = 0; i < array.length; i++) {
+            //ps下标从1开始
+            ps.setObject(i+1, array[i]);
+        }
+    }
+
+    //7.查询共有多少条记录
+    // map 包含 name address email
+    public  int findAllRecord(Map<String, String[]> map){
+        int count = 0;
+        String sql = "select count(*) from usermessage where  1=1";
+        StringBuffer sb = new StringBuffer(sql);
+        List<Object> list = new ArrayList<>();
+        Set<String> keySet = map.keySet();
+        for (String key: keySet) {
+            String value = map.get(key)[0];
+            if (value != null && !"".equals(value)) {
+                sb.append(" and ").append(key).append(" like ? ");
+                list.add("%"+value+"%");
+            }
+        }
+
+        Connection connection = null;
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+
+        try {
+            connection = DBUtil.getConnection();
+            ps = connection.prepareStatement(sb.toString());
+            //给sql语句赋值
+            setValues(ps,list.toArray());
+            rs = ps.executeQuery();
+            if (rs.next()) {
+              count = rs.getInt(1);
+            }
+        }catch (SQLException e) {
+            e.printStackTrace();
+        }finally {
+            DBUtil.close(connection,ps,rs);
+        }
+        return count;
+    }
+
+   /* public static void main(String[] args) {
+        Map<String, String[]> map = new HashMap<>();
+        String[] names = {""};
+        map.put("name",names);
+        String[] addresses = {""};
+        map.put("address",addresses);
+        String[] emails = {""};
+        map.put("emails",emails);
+
+//        System.out.println(findAllRecord(map));
+//        List<User> userList = findByPage(0,5,map);
+//        for (User user:userList) {
+//            System.out.println(user);
+//        }
+    }*/
 
 
 
