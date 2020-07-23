@@ -31,6 +31,6 @@ public class loginServlet extends HttpServlet {
 
         User user = userService.login(loginUser);
 
-     
+
     }
 }
