@@ -1,6 +1,6 @@
 package servlet;
 
-import com.sun.net.httpserver.HttpsServer;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import entiy.User;
 import service.UserService;
 
@@ -10,9 +10,13 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
+/**
+ 登陆
+ */
 @WebServlet("/loginServlet")
-
 public class loginServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -21,16 +25,33 @@ public class loginServlet extends HttpServlet {
 
         String username = req.getParameter("username");
         String password = req.getParameter("password");
-        System.out.println(username+password);
 
-        User loginUser =new User(); //创建一个数据库实体类对象
+        System.out.println("username : "+ username);
+        System.out.println("password : "+ password);
+
+        User loginUser = new User();
         loginUser.setUsername(username);
         loginUser.setPassword(password);
 
-        UserService userService=new UserService(); //创建service层的对象
-
+        UserService userService = new UserService();
         User user = userService.login(loginUser);
 
+        Map<String,Object> returnMap = new HashMap<>();
+
+        if(user != null) {
+            System.out.println("登录成功！"+username);
+            //1、把当前登录成功的用户写到session当中
+            req.getSession().setAttribute("user",user);
+            returnMap.put("msg",true);
+        }else {
+            System.out.println("登录失败！"+username);
+            returnMap.put("msg",false);
+        }
+
+        //把登录成功的map返回给前端。json      : 便于前端进行处理。
+        ObjectMapper objectMapper = new ObjectMapper();
+        //就是将returnMap，转换为json字符串
+        objectMapper.writeValue(resp.getWriter(),returnMap);
 
     }
 }
