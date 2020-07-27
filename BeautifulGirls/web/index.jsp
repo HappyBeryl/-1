@@ -1,16 +1,13 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: bq513
-  Date: 2020/7/24
-  Time: 18:46
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>演示</title>
   </head>
-  <body>
-  $END$
+  <br>
+  我的第一个web项目登录网址：http://localhost:8080/goodmanager/login.html<br/>
+  只属于你的<br/>
+  用户名:白琼<br/>
+  密码:678<br/>
   </body>
 </html>
