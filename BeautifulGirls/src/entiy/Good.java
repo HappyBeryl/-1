@@ -8,8 +8,7 @@ public class Good {
     private String match;
     private String bydata;
     private String expdata;
-    private double like;
-
+    private double likes;
 
     public int getId() {
         return id;
@@ -68,12 +67,12 @@ public class Good {
         this.expdata = expdata;
     }
 
-    public double getLike() {
-        return like;
+    public double getLikes() {
+        return likes;
     }
 
-    public void setLike(double like) {
-        this.like = like;
+    public void setLikes(double like) {
+        this.likes = likes;
     }
 
     @Override
@@ -86,7 +85,7 @@ public class Good {
                 ", match='" + match + '\'' +
                 ", bydata='" + bydata + '\'' +
                 ", expdata='" + expdata + '\'' +
-                ", like=" + like +
+                ", like=" + likes +
                 '}';
     }
 }

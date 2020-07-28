@@ -60,8 +60,8 @@
       <file leaf-file-name="GoodDao.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dao/GoodDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-802">
-              <caret line="67" column="13" lean-forward="true" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+            <state relative-caret-position="1436">
+              <caret line="344" column="5" selection-start-line="344" selection-start-column="5" selection-end-line="344" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,20 +69,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Good.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entiy/Good.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="25" />
+      <file leaf-file-name="goodmessage" pinned="false" current-in-tab="false">
+        <entry file="das://799a92ed-2f80-43b8-b26e-83416c290219/schema/goodmanager/table/goodmessage">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PreparedStatement.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_66/src.zip!/java/sql/PreparedStatement.java">
+      <file leaf-file-name="UpdateServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/servlet/UpdateServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2427">
-              <caret line="94" column="8" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
+            <state relative-caret-position="72">
+              <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,8 +93,73 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1085">
-              <caret line="43" column="45" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="45" />
+            <state relative-caret-position="675">
+              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/service/GoodService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/update.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/servlet/LoginServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-265">
+              <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/add.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2862">
+              <caret line="106" column="74" selection-start-line="106" selection-start-column="74" selection-end-line="106" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="50" column="63" selection-start-line="50" selection-start-column="63" selection-end-line="50" selection-end-column="63" />
+              <folding>
+                <element signature="e#188#195#1" expanded="true" />
+                <element signature="e#174#181#1" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,21 +176,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/servlet/AddServlet.java" />
         <option value="$PROJECT_DIR$/src/servlet/DeleteServlet.java" />
         <option value="$PROJECT_DIR$/src/servlet/DeleteSelectedServlet.java" />
         <option value="$PROJECT_DIR$/src/servlet/FindByPageServlet.java" />
-        <option value="$PROJECT_DIR$/src/servlet/FindGoodServlet.java" />
-        <option value="$PROJECT_DIR$/src/servlet/ReturnServlet.java" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/servlet/LoginServlet.java" />
-        <option value="$PROJECT_DIR$/src/servlet/UpdateServlet.java" />
-        <option value="$PROJECT_DIR$/src/entiy/Good.java" />
         <option value="$PROJECT_DIR$/src/util/DBUtil.java" />
-        <option value="$PROJECT_DIR$/src/service/GoodService.java" />
         <option value="$PROJECT_DIR$/src/entiy/User.java" />
+        <option value="$PROJECT_DIR$/src/service/GoodService.java" />
+        <option value="$PROJECT_DIR$/src/servlet/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/servlet/ReturnServlet.java" />
+        <option value="$PROJECT_DIR$/src/servlet/FindGoodServlet.java" />
+        <option value="$PROJECT_DIR$/src/entiy/Good.java" />
+        <option value="$PROJECT_DIR$/src/servlet/AddServlet.java" />
+        <option value="$PROJECT_DIR$/web/add.html" />
+        <option value="$PROJECT_DIR$/web/list.html" />
         <option value="$PROJECT_DIR$/web/login.html" />
         <option value="$PROJECT_DIR$/src/dao/GoodDao.java" />
+        <option value="$PROJECT_DIR$/web/update.html" />
+        <option value="$PROJECT_DIR$/src/servlet/UpdateServlet.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
       </list>
     </option>
   </component>
@@ -148,7 +219,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-393" />
     <option name="y" value="-12" />
     <option name="width" value="1944" />
@@ -159,8 +230,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,50 +245,40 @@
             <path>
               <item name="BeautifulGirls" type="b2602c69:ProjectViewProjectNode" />
               <item name="BeautifulGirls" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BeautifulGirls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BeautifulGirls" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="entiy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BeautifulGirls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BeautifulGirls" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BeautifulGirls" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BeautifulGirls" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BeautifulGirls" type="b2602c69:ProjectViewProjectNode" />
               <item name="BeautifulGirls" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../userManger" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cash" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15136719" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\Project\BeautifulGirls\src\servlet" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -233,7 +292,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GoodDao">
+  <component name="RunManager" selected="Tomcat Server.goodManager">
     <configuration name="GoodDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dao.GoodDao" />
       <module name="BeautifulGirls" />
@@ -383,16 +442,16 @@
       <updated>1595587612429</updated>
       <workItem from="1595587616154" duration="1213000" />
       <workItem from="1595642151050" duration="8755000" />
-      <workItem from="1595860541459" duration="4161000" />
+      <workItem from="1595860541459" duration="5438000" />
+      <workItem from="1595907996362" duration="23448000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14129000" />
+    <option name="totallyTimeSpent" value="38854000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -407,15 +466,16 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32902032" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.018484289" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.008892482" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32902032" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18027486" />
       <window_info anchor="bottom" id="Problems" order="8" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -439,56 +499,42 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/servlet/AddServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/dao/GoodDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="34" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="34" />
+        <state relative-caret-position="3645">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/DeleteSelectedServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/entiy/Good.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/FindByPageServlet.java">
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_66/src.zip!/java/sql/PreparedStatement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1836">
+          <caret line="94" column="8" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/FindGoodServlet.java">
+    <entry file="file://$PROJECT_DIR$/web/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1161">
+          <caret line="43" column="45" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/UpdateServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/AddServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/servlet/DeleteSelectedServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/servlet/FindByPageServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/servlet/FindGoodServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/servlet/UpdateServlet.java" />
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -496,16 +542,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/LoginServlet.java" />
     <entry file="file://$PROJECT_DIR$/web/add.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -527,151 +564,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entiy/PageBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" selection-start-line="4" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/799a92ed-2f80-43b8-b26e-83416c290219/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/DeleteServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/ReturnServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/FindGoodServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/FindByPageServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/DeleteSelectedServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/AddServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="33" selection-start-line="25" selection-start-column="7" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/add.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="58" column="2" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/UpdateServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="61" column="2" selection-start-line="61" selection-start-column="2" selection-end-line="61" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/DBUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/GoodService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="90" column="1" selection-start-line="90" selection-start-column="1" selection-end-line="91" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#188#195#1" expanded="true" />
-            <element signature="e#174#181#1" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entiy/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-          <folding>
-            <element signature="e#138#139#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/images/2.png">
       <provider selected="true" editor-type-id="images" />
@@ -693,29 +587,196 @@
     </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_66/src.zip!/java/sql/PreparedStatement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2427">
+        <state relative-caret-position="1836">
           <caret line="94" column="8" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.html">
+    <entry file="file://$PROJECT_DIR$/src/entiy/PageBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1085">
-          <caret line="43" column="45" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="45" />
+        <state relative-caret-position="-889">
+          <caret line="4" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://799a92ed-2f80-43b8-b26e-83416c290219/schema/goodmanager/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms2.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="324" column="22" selection-start-line="324" selection-start-column="22" selection-end-line="324" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/entiy/Good.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="-25">
+          <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entiy/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/AddServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-417">
+          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/DeleteSelectedServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-471">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/DeleteServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/FindByPageServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-579">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/FindGoodServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/ReturnServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/DBUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/GoodService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://799a92ed-2f80-43b8-b26e-83416c290219/schema/goodmanager/table/goodmessage">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2862">
+          <caret line="106" column="74" selection-start-line="106" selection-start-column="74" selection-end-line="106" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/UpdateServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="50" column="63" selection-start-line="50" selection-start-column="63" selection-end-line="50" selection-end-column="63" />
+          <folding>
+            <element signature="e#188#195#1" expanded="true" />
+            <element signature="e#174#181#1" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-265">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/GoodDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-802">
-          <caret line="67" column="13" lean-forward="true" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+        <state relative-caret-position="1436">
+          <caret line="344" column="5" selection-start-line="344" selection-start-column="5" selection-end-line="344" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -728,7 +789,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>BeautifulGirls:war exploded</last-edited>
+          <last-edited>goodmanager</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -776,7 +837,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>BeautifulGirls</last-edited>
+          <last-edited>Web|BeautifulGirls</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
