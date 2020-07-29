@@ -8,10 +8,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class GoodDao {
     //1.用户登陆
@@ -240,7 +237,7 @@ public class GoodDao {
      rows：共查询的记录
      map：包含：currentPage、rows、sort、brand、style
      */
-    public List<Good> findByPage(int start, int rows, Map<String, String[]> map) {
+    public static List<Good> findByPage(int start, int rows, Map<String, String[]> map) {
 
         List<Good> goodList = new ArrayList<>();
 
@@ -289,6 +286,7 @@ public class GoodDao {
                 good.setBydata(rs.getString("bydata"));
                 good.setExpdata(rs.getString("expdata"));
                 good.setLikes(rs.getDouble("likes"));
+                System.out.println(rs.getDouble("likes"));
                 goodList.add(good);
             }
 
@@ -307,6 +305,22 @@ public class GoodDao {
         }
     }
 
+    public static void main(String[] args) {
+
+        Map<String, String[]> map = new HashMap<>();
+        String[] sorts = {"口红"};
+        map.put("sort", sorts);
+        String[] brands = {""};
+        map.put("brand", brands);
+        String[] styles = {""};
+        map.put("style", styles);
+
+        List<Good> goodList = findByPage(0, 5, map);
+
+        for (Good good : goodList) {
+            System.out.println(good);
+        }
+    }
     //7.查询共有多少条记录
     // map 包含 sort brand style
     public  int findAllRecord(Map<String, String[]> map){

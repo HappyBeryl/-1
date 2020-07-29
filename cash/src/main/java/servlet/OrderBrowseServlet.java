@@ -23,8 +23,12 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-/*
-浏览订单
+/**
+ * Created with IntelliJ IDEA.
+ * Description:
+ * User: GAOBO
+ * Date: 2020-05-24
+ * Time: 9:17
  */
 @WebServlet("/orderbrowse")
 public class OrderBrowseServlet extends HttpServlet {
@@ -45,6 +49,8 @@ public class OrderBrowseServlet extends HttpServlet {
             System.out.println("你还没有产生订单！"+account.getId());
             writer.write("<h2> 你还没有产生订单！"+account.getId()+"</h2>");
         }else {
+
+            System.out.println("===========fsafasfafaf===================");
             //将后端的数据  转换为json字符串
             ObjectMapper objectMapper = new ObjectMapper();
             try {
@@ -56,10 +62,18 @@ public class OrderBrowseServlet extends HttpServlet {
             }catch (Exception e) {
                 e.printStackTrace();
             }
+
+         /*   //将后端的数据  转换为json字符串
+            ObjectMapper objectMapper = new ObjectMapper();
+
+            //将list转换为json字符串，并将该字符串写到流当中
+            objectMapper.writeValue(writer,orders);
+            //推到前端
+            writer.write(writer.toString());*/
+
         }
     }
 
-    //通过用户id查询订单
     public List<Order> queryOrderByAccount(Integer accountId) {
         Connection connection = null;
         PreparedStatement preparedStatement = null;
@@ -98,7 +112,6 @@ public class OrderBrowseServlet extends HttpServlet {
             //组织订单内容
             while (resultSet.next()) {
 
-                //order不为空才生成订单
                 if(order == null) {
                     order = new Order();
                     extractOrder(order,resultSet);
@@ -123,8 +136,8 @@ public class OrderBrowseServlet extends HttpServlet {
         return orderList;
     }
 
-    //解析订单列表
     public OrderItem extractOrderItem(ResultSet resultSet) throws SQLException {
+
         OrderItem orderItem = new OrderItem();
         orderItem.setId(resultSet.getInt("item_id"));
         orderItem.setGoodsId(resultSet.getInt("goods_id"));
@@ -137,7 +150,6 @@ public class OrderBrowseServlet extends HttpServlet {
         return orderItem;
     }
 
-    //解析订单
     public void extractOrder(Order order,ResultSet resultSet) throws SQLException{
         order.setId(resultSet.getString("order_id"));
         order.setAccount_id(resultSet.getInt("account_id"));

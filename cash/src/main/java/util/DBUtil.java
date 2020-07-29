@@ -14,7 +14,7 @@ import java.sql.SQLException;
 public class DBUtil {
     private static final String URL = "jdbc:mysql://localhost:3306/cash?useSSL=false";
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "123456";
+    private static final String PASSWORD = "";
 
     private static volatile DataSource DATASOURCE;
 

@@ -71,7 +71,7 @@ public class Good {
         return likes;
     }
 
-    public void setLikes(double like) {
+    public void setLikes(double likes) {
         this.likes = likes;
     }
 
@@ -85,7 +85,7 @@ public class Good {
                 ", match='" + match + '\'' +
                 ", bydata='" + bydata + '\'' +
                 ", expdata='" + expdata + '\'' +
-                ", like=" + likes +
+                ", likes=" + likes +
                 '}';
     }
 }

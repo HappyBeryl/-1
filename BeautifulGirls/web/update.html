@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- 网页使用的语言 -->
+<html lang="zh-CN">
+    <head>
+    	<base href="<%=basePath%>"/>
+        <!-- 指定字符集 -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>修改美妆产品信息</title>
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <script src="js/jquery-2.1.0.min.js"></script>
+        <!--<script src="js/bootstrap.min.js"></script>-->
+        <script>
+            $(function () {
+                //发送ajax请求
+                $.ajax({
+                    url:"/goodmanager/returnServlet",
+                    type:"POST",
+                    dataType:"json",
+                    success:function (data) {
+                        $("#sort").val(data.sort);
+                        $("#brand").val(data.brand);
+                        $("#style").val(data.style);
+                        $("#match").val(data.match);
+                        $("#bydata").val(data.bydata);
+                        $("#expdata").val(data.expdata);
+                        $("#likes").val(data.likes);
+                    }
+                });
+               $("#return").click(function () {
+                    window.location.href="/goodmanager/list.html";
+               });
+                $("#reset").click(function () {
+                    $("from").val("");
+                });
+                $("#submit").click(function () {
+                    var sort=$("#sort").val();
+                    var brand=$("#brand").val();
+                    var style=$("#style").val();
+                    var match=$("#match").val();
+                    var bydata=$("#bydata").val();
+                    var expdata=$("#expdata").val();
+                    var likes=$("#likes").val();
+                    $.ajax({
+                        url:"/goodmanager/updateServlet",
+                        data:{"sort":sort,"brand":brand,"style":style,"match":match,"bydata":bydata,"expdata":expdata,"likes":likes},
+                        type:"POST",
+                        dataType:"json",
+                        success:function (data) {
+                            if(data.msg===true){
+                                alert("更新成功");
+                                window.location.href="/goodmanager/list.html";
+                            }else{
+                                alert("更新失败");
+                            }
+                        }
+                    });
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="container" style="width: 400px;">
+        <h3 style="text-align: center;">修改彩妆信息</h3>
+        <form id = "idfrom">
+
+            <div class="form-group">
+                <label for="sort">类别：</label>
+                <input type="text" class="form-control" id="sort" name="sort"  placeholder="请输入彩妆类别" />
+            </div>
+
+          <div class="form-group">
+            <label for="brand">品牌：</label>
+            <input type="text" id="brand" class="form-control" name="qq" placeholder="请输入彩妆品牌"/>
+          </div>
+
+            <div class="form-group">
+                <label for="brand">风格：</label>
+                <input type="text" id="style" class="form-control" name="brand" placeholder="请输入风格描述"/>
+            </div>
+
+            <div class="form-group">
+                <label for="brand">适宜搭配：</label>
+                <input type="text" id="match" class="form-control" name="match" placeholder="请输入适宜搭配的服饰"/>
+            </div>
+
+            <div class="form-group">
+                <label for="brand">购入日期：</label>
+                <input type="text" id="bydata" class="form-control" name="bydata" placeholder="请输入彩妆购入的日期，格式为XXXX-XX-XX"/>
+            </div>
+
+            <div class="form-group">
+                <label for="brand">过期日期：</label>
+                <input type="text" id="expdata" class="form-control" name="expdata" placeholder="请输入彩妆过期的日期,格式为XXXX-XX-XX"/>
+            </div>
+
+            <div class="form-group">
+                <label for="brand">喜爱度：</label>
+                <input type="text" id="likes" class="form-control" name="likes" placeholder="有多爱？0-1"/>
+            </div>
+
+
+        </form>
+
+            <div class="form-group" style="text-align: center">
+                <input id="submit" class="btn btn-primary" type="submit" value="提交" />
+                <input id="reset" class="btn btn-default" type="reset" value="重置" />
+                <input id="return" class="btn btn-default" type="button" value="返回"/>
+            </div>
+
+        </div>
+    </body>
+</html>

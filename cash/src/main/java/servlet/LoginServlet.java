@@ -39,6 +39,7 @@ public class LoginServlet extends HttpServlet {
         try {
             String sql = "select id, username, password from account where username = ? and password = ?";
             connection = DBUtil.getConnection(true);
+            System.out.println(connection);
             ps = connection.prepareStatement(sql);
 
             ps.setString(1, username);
