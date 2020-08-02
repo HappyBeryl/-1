@@ -243,7 +243,7 @@ public class GoodDao {
 
         String sql = "select * from goodmessage where  1=1";
 
-        // String sql = "select * from usermessage where 1=1
+        // String sql = "select * from goodmessage where 1=1
         // and name like ? and email like ? limit ?,?"
 
         StringBuffer sb = new StringBuffer(sql);
